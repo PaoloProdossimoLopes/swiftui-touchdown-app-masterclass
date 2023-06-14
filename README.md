@@ -1,9 +1,5 @@
-#  TITLE
-DESCRIPTION ...
-
-## 🧰 Example:
-```swift
-```
+#  Touchdown
+This app uses SwiftUI framework to develop a "store"
 
 ## ℹ️  GETTING STARTED
 ### PREREQUISITES 
@@ -14,7 +10,7 @@ DESCRIPTION ...
 1. Open your terminal in location that you want save the project.
 2. Clone the repo in this local.
 ```sh
-git clone https://github.com/PaoloProdossimoLopes/repository-template.git
+git clone https://github.com/PaoloProdossimoLopes/swiftui-touchdown-app-masterclass.git
 ```
 3. Open the file with extension .xcodeproj inside the folder project.
    
