@@ -12,6 +12,7 @@ struct ContentView: View {
     private let players = Player.mock
     private let categories = Category.mock
     private let products = Product.mock
+    private let brands = Brand.mock
     
     var body: some View {
         ZStack {
@@ -26,6 +27,10 @@ struct ContentView: View {
                     ProductsList(products: products)
                         .padding(.horizontal)
                         .padding(.vertical, 15)
+                    
+                    TitleView(title: "Brands")
+                    
+                    BrandsGridView(brands: brands)
                     
                     Divider()
                     

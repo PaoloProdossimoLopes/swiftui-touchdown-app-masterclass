@@ -37,3 +37,9 @@ extension Product {
         Bundle.main.decode("product.json")
     }
 }
+
+extension Brand {
+    static var mock: [Self] {
+        Bundle.main.decode("brand.json")
+    }
+}
