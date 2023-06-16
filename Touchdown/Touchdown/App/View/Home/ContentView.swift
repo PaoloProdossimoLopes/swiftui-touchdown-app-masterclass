@@ -12,9 +12,6 @@ struct ContentView: View {
     private let players = Player.mock
     private let categories = Category.mock
     
-    private let categoryGridColuns = Array(repeating: GridItem(.flexible()), count: 2)
-    private let categorySpace = CGFloat(10)
-    
     var body: some View {
         ZStack {
             ScrollView(.vertical, showsIndicators: false) {
@@ -22,6 +19,8 @@ struct ContentView: View {
                     BannerPaginatorView(players: players)
                     
                     CategoryGridView(categories: categories)
+                    
+                    TitleView(title: "Helmets")
                     
                     FooterView()
                         .padding(.horizontal)

@@ -27,6 +27,7 @@
 		B1FB37482A3BE57800A10588 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37472A3BE57800A10588 /* CategoryItemView.swift */; };
 		B1FB374A2A3BE65F00A10588 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37492A3BE65F00A10588 /* CategoryGridView.swift */; };
 		B1FB374C2A3BE76500A10588 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB374B2A3BE76500A10588 /* SectionView.swift */; };
+		B1FB374E2A3BFDF600A10588 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB374D2A3BFDF600A10588 /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B1FB37472A3BE57800A10588 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		B1FB37492A3BE65F00A10588 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
 		B1FB374B2A3BE76500A10588 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		B1FB374D2A3BFDF600A10588 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				B1FB37472A3BE57800A10588 /* CategoryItemView.swift */,
 				B1FB37492A3BE65F00A10588 /* CategoryGridView.swift */,
 				B1FB374B2A3BE76500A10588 /* SectionView.swift */,
+				B1FB374D2A3BFDF600A10588 /* TitleView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				B1FB37482A3BE57800A10588 /* CategoryItemView.swift in Sources */,
 				B1FB37402A3BD8E000A10588 /* BundleExtension.swift in Sources */,
 				B1FB37462A3BE48D00A10588 /* Category.swift in Sources */,
+				B1FB374E2A3BFDF600A10588 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
