@@ -17,6 +17,16 @@
 		B1FB372B2A394CE300A10588 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = B1FB37272A394CE300A10588 /* category.json */; };
 		B1FB37362A394E6500A10588 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37352A394E6500A10588 /* Constant.swift */; };
 		B1FB37382A394EEB00A10588 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37372A394EEB00A10588 /* FooterView.swift */; };
+		B1FB373A2A3BC55700A10588 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37392A3BC55700A10588 /* NavigationBarView.swift */; };
+		B1FB373C2A3BC63C00A10588 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB373B2A3BC63C00A10588 /* LogoView.swift */; };
+		B1FB373E2A3BD8BC00A10588 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB373D2A3BD8BB00A10588 /* Player.swift */; };
+		B1FB37402A3BD8E000A10588 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB373F2A3BD8E000A10588 /* BundleExtension.swift */; };
+		B1FB37422A3BDB2400A10588 /* PlayerBannerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37412A3BDB2400A10588 /* PlayerBannerItemView.swift */; };
+		B1FB37442A3BDBAD00A10588 /* BannerPaginatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37432A3BDBAC00A10588 /* BannerPaginatorView.swift */; };
+		B1FB37462A3BE48D00A10588 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37452A3BE48D00A10588 /* Category.swift */; };
+		B1FB37482A3BE57800A10588 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37472A3BE57800A10588 /* CategoryItemView.swift */; };
+		B1FB374A2A3BE65F00A10588 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB37492A3BE65F00A10588 /* CategoryGridView.swift */; };
+		B1FB374C2A3BE76500A10588 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FB374B2A3BE76500A10588 /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,16 @@
 		B1FB372C2A394D8800A10588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B1FB37352A394E6500A10588 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		B1FB37372A394EEB00A10588 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		B1FB37392A3BC55700A10588 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		B1FB373B2A3BC63C00A10588 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		B1FB373D2A3BD8BB00A10588 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B1FB373F2A3BD8E000A10588 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		B1FB37412A3BDB2400A10588 /* PlayerBannerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBannerItemView.swift; sourceTree = "<group>"; };
+		B1FB37432A3BDBAC00A10588 /* BannerPaginatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerPaginatorView.swift; sourceTree = "<group>"; };
+		B1FB37452A3BE48D00A10588 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B1FB37472A3BE57800A10588 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		B1FB37492A3BE65F00A10588 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		B1FB374B2A3BE76500A10588 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +138,13 @@
 			children = (
 				B1FB37172A394C3200A10588 /* ContentView.swift */,
 				B1FB37372A394EEB00A10588 /* FooterView.swift */,
+				B1FB37392A3BC55700A10588 /* NavigationBarView.swift */,
+				B1FB373B2A3BC63C00A10588 /* LogoView.swift */,
+				B1FB37412A3BDB2400A10588 /* PlayerBannerItemView.swift */,
+				B1FB37432A3BDBAC00A10588 /* BannerPaginatorView.swift */,
+				B1FB37472A3BE57800A10588 /* CategoryItemView.swift */,
+				B1FB37492A3BE65F00A10588 /* CategoryGridView.swift */,
+				B1FB374B2A3BE76500A10588 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -132,6 +159,8 @@
 		B1FB37322A394E2D00A10588 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B1FB373D2A3BD8BB00A10588 /* Player.swift */,
+				B1FB37452A3BE48D00A10588 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +168,7 @@
 		B1FB37332A394E3300A10588 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B1FB373F2A3BD8E000A10588 /* BundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -226,9 +256,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1FB37182A394C3200A10588 /* ContentView.swift in Sources */,
+				B1FB373C2A3BC63C00A10588 /* LogoView.swift in Sources */,
 				B1FB37382A394EEB00A10588 /* FooterView.swift in Sources */,
 				B1FB37162A394C3200A10588 /* TouchdownApp.swift in Sources */,
+				B1FB37422A3BDB2400A10588 /* PlayerBannerItemView.swift in Sources */,
 				B1FB37362A394E6500A10588 /* Constant.swift in Sources */,
+				B1FB373A2A3BC55700A10588 /* NavigationBarView.swift in Sources */,
+				B1FB374A2A3BE65F00A10588 /* CategoryGridView.swift in Sources */,
+				B1FB373E2A3BD8BC00A10588 /* Player.swift in Sources */,
+				B1FB37442A3BDBAD00A10588 /* BannerPaginatorView.swift in Sources */,
+				B1FB374C2A3BE76500A10588 /* SectionView.swift in Sources */,
+				B1FB37482A3BE57800A10588 /* CategoryItemView.swift in Sources */,
+				B1FB37402A3BD8E000A10588 /* BundleExtension.swift in Sources */,
+				B1FB37462A3BE48D00A10588 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

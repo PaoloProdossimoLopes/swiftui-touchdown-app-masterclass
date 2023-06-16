@@ -18,3 +18,16 @@ let logoWhiteVariantName = "logo-lineal"
 let colorBackgorund = Color("ColorBackground")
 let colorGray = Color(UIColor.systemGray4)
 
+
+// MARK: - Mocks
+extension Player {
+    static var mock: [Self] {
+        Bundle.main.decode("player.json")
+    }
+}
+
+extension Category {
+    static var mock: [Self] {
+        Bundle.main.decode("category.json")
+    }
+}
