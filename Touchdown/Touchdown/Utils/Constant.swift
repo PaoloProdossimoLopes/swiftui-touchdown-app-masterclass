@@ -31,3 +31,9 @@ extension Category {
         Bundle.main.decode("category.json")
     }
 }
+
+extension Product {
+    static var mock: [Self] {
+        Bundle.main.decode("product.json")
+    }
+}
